@@ -5,14 +5,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+       
+       <Person></Person>
         
       </header>
     </div>
   );
 }
+
+
+function Person(){
+  return(
+        <div style={{border:'2px solid red',padding:'10px'}}>
+          <h2>Anisur Rahman Nayan</h2>
+          <h3>Zero of the year</h3>
+        </div>
+  )}
 
 export default App;
